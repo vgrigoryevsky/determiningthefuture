@@ -103,9 +103,7 @@ nav:
   - home: index.md
   - echo: pages/echo-of-the-future/TODO.md
   - ways:
-      - methodologies:
-          - description: pages/ways-methodologies-review/TODO.md
-          - test: pages/ways-methodologies-review/blog/2024-08-13_00-13_Test-review-1.md
+      - methodologies: pages/ways-methodologies-review/TODO.md
       - solutions: pages/ways-solutions-review/TODO.md
       - literature: pages/ways-literature-review/TODO.md
       - culture: pages/ways-culture-review/TODO.md
@@ -115,6 +113,7 @@ nav:
       - literature: pages/refs-literature-list/TODO.md
       - culture: pages/refs-culture-list/TODO.md
   - about:
+      - about: pages/about/TODO.md
       - faq: pages/faq/faq.md
       - issues: pages/issues/issues.md
       - contribute: pages/contributing/contributing.md
