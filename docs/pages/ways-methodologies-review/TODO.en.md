@@ -1,1 +1,0 @@
-_Here we'll list reviews about existing Methods & Methodologies._

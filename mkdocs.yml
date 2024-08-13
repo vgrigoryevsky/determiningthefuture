@@ -1,36 +1,45 @@
-# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
-site_name: Determining The Future
+# Project information
+site_name: DeterminingTheFuture
 site_url: https://vgrigoryevsky.github.io/determiningthefuture
+site_author: Valentin Grigoryevsky
+site_description: >-
+  Explore theories, methodologies, solutions, and sci-fi concepts 
+  for forecasting the future, with a focus on strategic modelling.
 
-#repo_url: https://github.com/vgrigoryevsky/determiningthefuture
+# Copyright
+copyright: Copyright &copy; 2024 DeterminingTheFuture
 
+# Configuration
 theme:
   name: material
-  logo: assets/images/logo.svg
-  favicon: assets/images/favicon.ico
-  font:
-    h:
-      Monaco
-    text:
-      Monaco
-    code:
-      Consolas
   features:
-    ## mkdocs-material language switcher contextual link is not compatible with theme.features = navigation.instant
-    #- navigation.instant
-    - navigation.path
-#    - navigation.instant.prefetch
-#    - navigation.instant.progress
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    # - content.code.select
+    # - content.footnote.tooltips
+    # - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    # - navigation.footer
     - navigation.indexes
-    - navigation.tracking
+    # - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    # - navigation.prune
+    - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.top
-    - navigation.sections
-    - toc.follow
-    - search.suggest
+    - navigation.tracking
     - search.highlight
     - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
   palette:
     - media: "(prefers-color-scheme: dark)"
       scheme: default
@@ -42,96 +51,85 @@ theme:
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
+  font:
+    h: Fira Code
+    text:  Fira Code
+    code: Source Code Pro
+  favicon: assets/images/favicon.ico
+  logo: assets/images/logo.svg
 
 
 extra_css:
   - assets/stylesheets/extra.css
 
 plugins:
-  - i18n:
-      languages:
-        - locale: en
-          name: English
-          build: true
-          default: true
-          nav_translations:
-            home: Latest updates
-            echo: Echo of the Future
-            ways: Ways to the Future
-            methodologies: Methods & Methodologies
-            solutions: Solutions
-            literature: Literature
-            culture: Culture
-            refs: References
-            about: About
-            faq: FAQ
-            contribute: Contributing
-            issues: Report Issues
-            lic: License
-            icla: ICLA
-        - locale: ru
-          name: Russian
-          build: true
-          nav_translations:
-            home: Последние обновления
-            echo: Эхо будущего
-            ways: Пути к будущему
-            methodologies: Методы и метододологии
-            solutions: Решения
-            literature: Литература
-            culture: Культура
-            refs: Ссылки
-            about: О проекте
-            faq: Частые вопросы
-            contribute: Присоединиться
-            issues: Сообщить о проблеме
-            lic: Лицензия на контент
-            icla: ICLA
-      reconfigure_search: true
-      # material_alternate: true
-  - search
-  - blogging:
-      dirs:
-        - pages/ways-methodologies-review/blog
-        - pages/ways-solutions-review/blog
-        - pages/ways-literature-review/blog
-        - pages/ways-culture-review/blog
-      features:
-        tags: { }
+  - blog:
+      post_date_format: full
+      archive_name: Posting date
+      archive_date_format: MMMM yyyy
+      archive_url_date_format: yyyy/MM
+      archive_url_format: "{date}"
+      categories_url_format: "{slug}"
+      categories_allowed:
+        - 0. Announcements
+        - 0. Trending
+        - 1. Theories
+        - 2. Methodologies
+        - 3. Solutions
+        - 4. Culture
+        - 5. Concepts
+        - 6. Events
+        - 7. Social Media
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - social
 
-nav:
-  - home: index.md
-  - echo: pages/echo-of-the-future/TODO.md
-  - ways:
-      - methodologies: pages/ways-methodologies-review/TODO.md
-      - solutions: pages/ways-solutions-review/TODO.md
-      - literature: pages/ways-literature-review/TODO.md
-      - culture: pages/ways-culture-review/TODO.md
-  - refs:
-      - methodologies: pages/refs-methodologies-list/TODO.md
-      - solutions: pages/refs-solutions-list/TODO.md
-      - literature: pages/refs-literature-list/TODO.md
-      - culture: pages/refs-culture-list/TODO.md
-  - about:
-      - about: pages/about/TODO.md
-      - faq: pages/faq/faq.md
-      - issues: pages/issues/issues.md
-      - contribute: pages/contributing/contributing.md
-      - lic: pages/license/LICENSE.md
-      - icla: pages/icla/ICLA.md
-
+# Additional configuration
 extra:
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/vgrigoryevsky/determiningthefuture
     - icon: fontawesome/brands/telegram
-      link: https://t.me/your-handle
+      link: https://t.me/determiningthefuture
   generator: false
-  manifest: false
 
-copyright: © 2024 DeterminingTheFuture. All rights reserved.
 
+# Extensions
 markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      auto_append:
+        - includes/mkdocs.md
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -139,15 +137,48 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.tabbed:
       alternate_style: true
-  - admonition
-  - pymdownx.details
-  - pymdownx.highlight:
-      anchor_linenums: true
-  - pymdownx.inlinehilite
-  - pymdownx.snippets
-  - attr_list
-  - md_in_html
-  - footnotes
-  - tables
-  - toc:
-      permalink: true
+      combine_header_slug: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+# not_in_nav: |
+
+
+# Page tree
+nav:
+  - Ways to the Future:
+      - blog/index.md
+  - Echo of the Future:
+    - echo/index.md
+  - References:
+      - references/index.md
+      - Theories:
+        - references/1-theories/index.md
+      - Methodologies:
+          - references/2-methodologies/index.md
+      - Solutions:
+          - references/3-solutions/index.md
+      - Culture:
+          - references/4-culture/index.md
+      - Events:
+          - references/6-events/index.md
+      - Social Media:
+          - references/7-social-media/index.md
+  - About:
+    - index.md
+    - Team: about/team.md
+    - Contacts: about/contacts.md
+    - FAQ:
+      - about/faq/index.md
+    - Contributing:
+      - about/contributing/index.md
+      - Asking a question: about/contributing/discussions.md
+      - Reporting an issue: about/contributing/reporting-an-issue.md
+      - Making a pull request: about/contributing/making-a-pull-request.md
+    - Legal:
+      - about/legal/LICENSE.md
+      - ICLA: about/legal/ICLA.md

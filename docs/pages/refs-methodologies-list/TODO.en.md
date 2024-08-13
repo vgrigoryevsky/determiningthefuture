@@ -1,1 +1,0 @@
-_Here we'll list references to the existing Methods & Methodologies._
