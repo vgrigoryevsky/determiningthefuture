@@ -3,14 +3,14 @@
 <div class="column">
 
 <p style="font-weight: bold">Valentin Grigoryevsky</p>
-<p>Solution Architect</p>
+<p>Founder</p>
 
 </div>
 
 <div class="column">
 
-<p style="font-weight: bold">Katia Derbilova</p>
-<p>Research Analyst</p>
+<p style="font-weight: bold">Kaan</p>
+<p>Founder</p>
 
 </div>
 
