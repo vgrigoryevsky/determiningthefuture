@@ -1,7 +1,7 @@
 # DeterminingTheFuture
 
 
-This site is dedicated to gathering and sharing information about the latest developments in understanding, researching, forecasting, modeling, and imagining the future. 
+This site is dedicated to gathering and sharing information about the latest developments in understanding, researching, forecasting, modelling, and imagining the future. 
 
 We document [References](references/index.md) to research articles and non-fiction books that explore relevant theories, methodologies, and methods, along with specific implementations such as software programs, libraries, websites, and applications that offer a glimpse into what the future might hold. Additionally, we highlight cultural depictions from sci-fi movies, books, artwork, music, and more.
 

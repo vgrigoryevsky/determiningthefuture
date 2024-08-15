@@ -1,21 +1,17 @@
 # Contribution Guide
 
-The project accepts contributions via GitHub Pull Requests (described below). Each Pull Request shall be raised against
+The project accepts contributions via GitHub Pull Requests (described below). Each Pull Request should be raised against
 the specific
-GitHub [Issue(-s)](https://github.com/vgrigoryevsky/determiningthefuture/issues) (
-see below for more information). This document outlines some conventions on submission workflow, commit message
+GitHub [Issue(-s)](https://github.com/vgrigoryevsky/determiningthefuture/issues) (see below for more information). This document outlines some conventions on submission workflow, commit message
 formatting, contact points, and other resources to make it easier to get your contribution done and accepted.
 
 ## What to contribute
 
-There are several ways of how one can contribute to the Project:
+* **Content** -- creating new content or fixing mistakes in the existing one. 
 
-* **Content** -- creating new content
-* **Translations** -- translating existing content to other languages
 
 All the items, which require contribution, are tracked
-as [Issues](https://github.com/vgrigoryevsky/determiningthefuture/issues)
-. Look for the "good first issue" tag in order not to lose yourself in plenty of items.
+as [Issues](https://github.com/vgrigoryevsky/determiningthefuture/issues). Look for the "good first issue" tag in order not to lose yourself in plenty of items.
 
 ### Propose changes
 
@@ -26,10 +22,10 @@ close this issue or ask you to create a Pull Request if this is not something we
 
 ## Contributor License Agreement
 
-By contributing to this repository you agree to the [Individual Contributor License Agreement (ICLA)](../../about/legal/ICLA.md).
+By contributing to this repository you agree to the [Individual Contributor License Agreement (ICLA)](../legal/ICLA.md).
 
-In order to show your agreement with the ICLA, you should include at the end of a commit message your signature (
-described below).
+In order to show your agreement with the ICLA, you should include at the end of a commit message your signature 
+(described below).
 
 ## Contributing steps
 

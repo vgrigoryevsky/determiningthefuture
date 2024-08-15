@@ -1,6 +1,6 @@
 ---
 title: Launching the "DeterminingTheFuture"
-date: 2024-07-15
+date: 2024-08-15
 authors: [vgrigoryevsky]
 description: >
   The updates are coming...

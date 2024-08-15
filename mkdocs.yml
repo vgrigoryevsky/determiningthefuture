@@ -178,7 +178,6 @@ nav:
       - about/contributing/index.md
       - Asking a question: about/contributing/discussions.md
       - Reporting an issue: about/contributing/reporting-an-issue.md
-      - Making a pull request: about/contributing/making-a-pull-request.md
     - Legal:
       - about/legal/LICENSE.md
       - ICLA: about/legal/ICLA.md
