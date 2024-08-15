@@ -26,7 +26,7 @@ close this issue or ask you to create a Pull Request if this is not something we
 
 ## Contributor License Agreement
 
-By contributing to this repository you agree to the [Individual Contributor License Agreement (ICLA)](../icla/ICLA.md).
+By contributing to this repository you agree to the [Individual Contributor License Agreement (ICLA)](../legal/ICLA.md).
 
 In order to show your agreement with the ICLA, you should include at the end of a commit message your signature (
 described below).

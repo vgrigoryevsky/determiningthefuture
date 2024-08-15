@@ -150,7 +150,7 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - Ways to the Future:
+  - Pathways to the Future:
       - blog/index.md
   - Echo of the Future:
     - echo/index.md
