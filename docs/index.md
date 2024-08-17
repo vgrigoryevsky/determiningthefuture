@@ -1,11 +1,10 @@
 # DeterminingTheFuture
 
+We are a community of people who are fascinated with the future of our society and humanity. We explore, discuss and debate ideas that help us imagine and forecast how the future will unfold.
 
-This site is dedicated to gathering and sharing information about the latest developments in understanding, researching, forecasting, modelling, and imagining the future. 
+We collect the most advanced ideas about the future megatrends, as they [echo](echo/index.md) to us through the brightest minds of leading researchers and futurists.
 
-We document [References](references/index.md) to research articles and non-fiction books that explore relevant theories, methodologies, and methods, along with specific implementations such as software programs, libraries, websites, and applications that offer a glimpse into what the future might hold. Additionally, we highlight cultural depictions from sci-fi movies, books, artwork, music, and more.
-
-A separate section of the website is dedicated to cataloging the most advanced ideas, concepts, and megatrends of the future, as they [echo](echo/index.md) to us through the brightest minds of leading researchers and futurists.
+We document [References](references/index.md) to explore cultural depictions of a future society and to research relevant theories and methods that offer us a glimpse into the future trends.
 
 In our blog, we strive to interpret these various elements as potential [Pathways to the future](blog/index.md). 
 
