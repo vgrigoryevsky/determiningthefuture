@@ -95,6 +95,12 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/vgrigoryevsky/determiningthefuture
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/determiningthefuture
+    - icon: fontawesome/brands/threads
+      link: https://www.threads.net/@determiningthefuture
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/determthefuture
     - icon: fontawesome/brands/telegram
       link: https://t.me/determiningthefuture
   generator: false
