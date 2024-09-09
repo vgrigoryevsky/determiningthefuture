@@ -8,7 +8,7 @@ jobs:
   build:
     name: Deploy Docs
     runs-on: ubuntu-latest
-    environment: github-pages
+    environment: production
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
