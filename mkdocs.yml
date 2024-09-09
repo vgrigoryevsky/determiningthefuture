@@ -91,7 +91,7 @@ extra:
     deprecated: Deprecated
   analytics:
     provider: google
-    property: !!python/object/apply:os.getenv ["GOOGLE_ANALYTICS_KEY"]
+    property: G-D5VX16XM87
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/vgrigoryevsky/determiningthefuture
