@@ -8,6 +8,7 @@ jobs:
   build:
     name: Deploy Docs
     runs-on: ubuntu-latest
+    environment: github-pages
     steps:
       - name: Checkout main
         uses: actions/checkout@v4
@@ -20,4 +21,4 @@ jobs:
           # CONFIG_FILE: folder/mkdocs.yml
           # EXTRA_PACKAGES: build-base
           # GITHUB_DOMAIN: github.myenterprise.com
-          #REQUIREMENTS: folder/requirements.txt
+          # REQUIREMENTS: folder/requirements.txt
