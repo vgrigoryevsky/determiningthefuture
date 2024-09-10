@@ -163,17 +163,17 @@ nav:
   - References:
       - references/index.md
       - Theories:
-        - references/1-theories/index.md
+        - references/theories/index.md
       - Methodologies:
-          - references/2-methodologies/index.md
+          - references/methodologies/index.md
       - Solutions:
-          - references/3-solutions/index.md
+          - references/solutions/index.md
       - Culture:
-          - references/4-culture/index.md
+          - references/culture/index.md
       - Events:
-          - references/6-events/index.md
+          - references/events/index.md
       - Social Media:
-          - references/7-social-media/index.md
+          - references/social-media/index.md
   - About:
     - index.md
     - Team: about/team.md
