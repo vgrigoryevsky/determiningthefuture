@@ -162,6 +162,8 @@ nav:
     - echo/index.md
   - References:
       - references/index.md
+      - Forecasts:
+          - references/forecasts/index.md
       - Theories:
         - references/theories/index.md
       - Methodologies:
