@@ -5,3 +5,4 @@
 - **Shaping Tomorrow** ([shapingtomorrow.com](https://www.shapingtomorrow.com/)): "_We provide organizations and governments with horizon scanning tools and reports to assist scenario planning and strategic intelligence. Predict opportunities, mitigate threats and apply data-driven foresight._"
 - **Strategyzer** ([strategyzer.com](https://www.strategyzer.com/)): "_Transform the way innovation is viewed, measured and delivered in your business_".
 - **StratNavApp** ([stratnavapp.com](https://www.stratnavapp.com/)): "_Collaborative business strategy software for consultants, practitioners and startups. Develop and execute better business strategies now._".
+- **Valuer** ([valuer.ai](https://www.valuer.ai/)): "_Valuer is the maker of PUMA, a specialized AI for Research and Strategic Decisions, the AI companion for developing your business strategies._".
